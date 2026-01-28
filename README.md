@@ -49,3 +49,46 @@ Atríbutos(id,nome)
 Construtores
 
 Getter e Setter
+
+- AlunoDAO (dao)
+
+Responsável por:
+
+Executar comandos SQL
+
+Fazer operações CRUD
+
+Converter dados do banco em objetos Java
+
+Métodos:
+
+cadastrar(Aluno aluno)
+
+listar()
+
+- Centraliza toda a lógica de acesso ao banco.
+
+- ConnectionFactory (config)
+
+Responsável por:
+
+Criar e fornecer conexões com o banco de dados
+
+Centralizar URL, usuário e senha
+
+- Facilita manutenção e evita repetição de código.
+
+## Importância do Padrão DAO
+
+O padrão DAO (Data Access Object) é importante porque:
+
+Separa regras de negócio do acesso ao banco
+
+Facilita testes
+
+Permite trocar o banco sem alterar o restante do sistema
+
+Torna o código mais organizado e profissional
+
+É amplamente usado no mercado de trabalho
+
